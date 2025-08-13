@@ -1,0 +1,50 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 20, 2025
+ *      Author: Shashank
+ */
+
+#include <stdio.h>
+#include <stdint.h>
+
+typedef struct{
+	char name[10];
+	uint8_t age;
+	uint16_t total_marks;
+}Student_t;
+
+void display(Student_t *,uint8_t );
+
+int main (void){
+
+	uint8_t count;
+	uint16_t average=0;
+	printf("Enter the total number of students: ");
+	scanf("%d",&count);
+	Student_t student[count];
+
+	for(uint8_t i=0;i<count;i++){
+		printf("Enter the name of student: ");
+		scanf("%s",&student[i].name);
+		printf("Enter the age of %s : ",student[i].name);
+		scanf("%d",&student[i].age);
+		printf("Enter the total marks of %s : ",student[i].name);
+		scanf("%d",&student[i].total_marks);
+		average=average+student[i].total_marks;
+	}
+	display(student,count);
+	average=average/count;
+	printf("average= %d\n",average);
+
+	for(;;);
+}
+
+
+void display(Student_t *student,uint8_t count){
+	printf("Please find the details of student below :\n");
+	printf("Name\t\tAge\tTotal marks\n");
+	for(uint8_t i=0;i<count;i++){
+		printf("%-12s %5d %12d\n",student[i].name,student[i].age,student[i].total_marks);
+	}
+}

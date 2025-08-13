@@ -1,0 +1,24 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 15, 2025
+ *      Author: Shashank
+ */
+
+#include <stdio.h>
+#include <stdint.h>
+
+uint8_t age;
+
+int main (void){
+
+	printf("Enter your age\n");
+
+	scanf("%d",&age);
+	if(age >= 18)
+	printf("You are eligible to cast vote\n");
+	else
+	printf("You are not eligible to cast vote\n");
+
+	for (;;);
+}

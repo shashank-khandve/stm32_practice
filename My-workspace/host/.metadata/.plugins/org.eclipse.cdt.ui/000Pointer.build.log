@@ -1,0 +1,6 @@
+09:58:12 **** Incremental Build of configuration Debug for project 000Pointer ****
+Info: Internal Builder is used for build
+gcc -o 000Pointer.exe main.o 
+
+09:58:12 Build Finished. 0 errors, 0 warnings. (took 292ms)
+

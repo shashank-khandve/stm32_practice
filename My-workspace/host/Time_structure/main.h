@@ -1,0 +1,58 @@
+/*
+ * main.h
+ *
+ *  Created on: Jul 20, 2025
+ *      Author: Shashank
+ */
+
+#ifndef MAIN_H_
+#define MAIN_H_
+
+
+typedef struct {
+	uint32_t Hour;
+	uint32_t Minute;
+	uint32_t Second;
+}Time_t;
+typedef struct {
+	uint32_t Hour:5;
+	uint32_t Minute:6;
+	uint32_t Second:6;
+}time_t;
+
+
+uint32_t time_calculate(uint32_t ,uint32_t ,uint32_t *,uint8_t ,uint32_t );
+
+void fun1(void);
+
+
+uint32_t time_calculate(uint32_t t1,uint32_t t2,uint32_t *t3,uint8_t num,uint32_t num1){
+
+	uint32_t temp;
+	temp = t1+t2+num1;
+	if (temp > num){
+		*t3=temp-num;
+		return 1;
+	}else{
+		*t3=temp;
+		return 0;
+	}
+
+}
+
+void fun1(void){
+
+	time_t t1;
+	uint32_t Hour,Minute,Second;
+	printf("Enter the first time in HH:MM:SS format: ");
+	scanf("%u:%u:%u",&Hour,&Minute,&Second);
+	t1.Hour = Hour;
+	t1.Minute = Minute;
+	t1.Second = Second;
+	printf("%02u:%2u:%2u\n",t1.Hour,t1.Minute,t1.Second);
+	printf("Size of bit field struct id %d\n",sizeof(t1));
+
+
+}
+
+#endif /* MAIN_H_ */

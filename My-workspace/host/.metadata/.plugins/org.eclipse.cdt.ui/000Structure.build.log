@@ -1,0 +1,17 @@
+11:03:00 **** Rebuild of configuration Debug for project 000Structure ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:24:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'uint8_t * {aka unsigned char *}' [-Wformat=]
+  scanf("%d",&count);
+          ^
+..\main.c:31:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'uint8_t * {aka unsigned char *}' [-Wformat=]
+   scanf("%d",&student[i].age);
+           ^
+..\main.c:33:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'uint16_t * {aka short unsigned int *}' [-Wformat=]
+   scanf("%d",&student[i].total_marks);
+           ^
+gcc -o 000Structure.exe main.o 
+
+11:03:01 Build Finished. 0 errors, 3 warnings. (took 366ms)
+

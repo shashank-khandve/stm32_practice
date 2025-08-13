@@ -1,0 +1,8 @@
+13:49:53 **** Clean-only build of configuration Debug for project arrays ****
+rm -rf main.d arrays.exe main.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\mingw32\bin;C:\MinGW\bin;C:\MinGW\usr\bin;C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE//plugins/com.st.stm32cube.ide.jre.win64_3.4.0.202409160955/jre/bin/server;C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE//plugins/com.st.stm32cube.ide.jre.win64_3.4.0.202409160955/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Azure Data Studio\bin;C:\MinGW\bin;C:\Users\Shashank\AppData\Local\Programs\Python\Launcher\;C:\Users\Shashank\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\MinGW;C:\MinGW\mingw32;C:\MinGW\bin;;C:\ST\STM32CubeIDE_1.18.1\STM32CubeIDE]
+
+13:49:53 **** Clean-only build of configuration Debug for project arrays ****

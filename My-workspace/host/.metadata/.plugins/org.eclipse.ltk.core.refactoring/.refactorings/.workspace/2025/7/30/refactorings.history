@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Time_structure/main_.c&apos;" deleteContents="false" description="Delete resource &apos;Time_structure/main_.c&apos;" element1="/Time_structure/main_.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1752993986468"/>
+</session>

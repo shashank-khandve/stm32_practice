@@ -1,0 +1,47 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 20, 2025
+ *      Author: Shashank
+ */
+
+#include <stdio.h>
+#include <stdint.h>
+
+typedef struct {
+	uint32_t Hour:5;
+	uint32_t Minute:6;
+	uint32_t Second:6;
+}Time_t;
+void time_calculate(uint32_t ,uint32_t ,uint32_t ,uint8_t );
+
+int main(void){
+
+	Time_t t1,t2,t3;
+	uint32_t temp=0;
+	printf("Enter the first time in HH:MM:SS format: ");
+	scanf("%d %d %d",&t1.Hour,&t1.Minute,&t1.Second);
+
+	printf("Enter the second time in HH:MM:SS format: ");
+	scanf("%d:%d:%d",&t2.Hour,&t2.Minute,&t2.Second);
+
+	temp=time_calculation(t1.Second,t2.Second,&t3.Second,60,temp);
+	temp=time_calculation(t1.Minute,t2.Minute,&t3.Minute,60,temp);
+	temp=time_calculation(t1.Hour,t2.Hour,&t3.Hour,24,temp);
+	printf("Addition of time is : %d:%d:%d\n",t3.Hour,t3.Minute,t3.Second);
+	for(;;);
+}
+
+uint32_t time_calculate(uint32_t t1,uint32_t t2,uint32_t *t3,uint8_t num,uint32_t num1){
+
+	uint32_t temp;
+	temp = t1+t2+num1;
+	if (temp > num){
+		*t3=temp-num;
+		return 1;
+	}else{
+		*t3=temp;
+		return 0;
+	}
+
+}

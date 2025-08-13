@@ -1,0 +1,30 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 20, 2025
+ *      Author: Shashank
+ */
+
+#include <stdio.h>
+#include <stdint.h>
+
+typedef struct {
+	uint32_t Hour:5;
+	uint32_t Minute:6;
+	uint32_t Second:6;
+}Time_t;
+
+
+int main(void){
+
+	Time_t t1,t2;
+
+	printf("Enter the first time in HH:MM:SS format: ");
+	scanf("%d %d %d",&t1.Hour,&t1.Minute,&t1.Second);
+
+	printf("Enter the second time in HH:MM:SS format: ");
+	scanf("%d %d %d",&t2.Hour,&t2.Minute,&t2.Second);
+
+
+
+}

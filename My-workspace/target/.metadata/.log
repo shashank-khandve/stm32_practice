@@ -1,0 +1,138 @@
+!SESSION 2025-07-04 13:54:27.651 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\Shashank\OneDrive\Desktop\D_drive\Embedded-c\My-workspace\target
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-07-04 13:54:33.572
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-07-04 13:54:33.574
+!MESSAGE Log4j2 initialized with config file C:\Users\Shashank\OneDrive\Desktop\D_drive\Embedded-c\My-workspace\target\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-07-04 13:54:37.403
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-07-04 14:04:20.168 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\Shashank\OneDrive\Desktop\D_drive\Embedded-c\My-workspace\target
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-07-04 14:04:24.851
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-07-04 14:04:24.851
+!MESSAGE Log4j2 initialized with config file C:\Users\Shashank\OneDrive\Desktop\D_drive\Embedded-c\My-workspace\target\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-07-04 14:04:29.148
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-07-04 14:21:52.161
+!MESSAGE Indexed '000TestProject' (3 sources, 53 headers) in 0.88 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+!SESSION 2025-07-10 11:03:20.385 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\Shashank\OneDrive\Desktop\D_drive\Embedded-c\My-workspace\target
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-07-10 11:03:24.516
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-07-10 11:03:24.516
+!MESSAGE Log4j2 initialized with config file C:\Users\Shashank\OneDrive\Desktop\D_drive\Embedded-c\My-workspace\target\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-07-10 11:03:29.480
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-07-10 11:05:52.150
+!MESSAGE Indexed '000sizeof' (3 sources, 53 headers) in 1.12 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+!SESSION 2025-07-17 08:54:01.924 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\Shashank\OneDrive\Desktop\D_drive\Embedded-c\My-workspace\target
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-07-17 08:54:07.521
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-07-17 08:54:07.525
+!MESSAGE Log4j2 initialized with config file C:\Users\Shashank\OneDrive\Desktop\D_drive\Embedded-c\My-workspace\target\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-07-17 08:54:13.671
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-07-23 10:11:52.693 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\Shashank\OneDrive\Desktop\D_drive\Embedded-c\My-workspace\target
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-07-23 10:11:57.459
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-07-23 10:11:57.463
+!MESSAGE Log4j2 initialized with config file C:\Users\Shashank\OneDrive\Desktop\D_drive\Embedded-c\My-workspace\target\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-07-23 10:12:03.172
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.ui 4 0 2025-07-23 10:13:28.025
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.ui.IWorkbenchWindow.getShell()" because the return value of "org.eclipse.ui.IWorkbench.getActiveWorkbenchWindow()" is null
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.AwtEnvironment.getShell(AwtEnvironment.java:281)
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.SwtInputBlocker.block(SwtInputBlocker.java:98)
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.AwtEnvironment.invokeAwt(AwtEnvironment.java:179)
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite$3.widgetDisposed(EmbeddedSwingComposite.java:244)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:140)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1198)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1179)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:889)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:933)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:169)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:715)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1379)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:896)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:478)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:396)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3768)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:332)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:168)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SESSION 2025-08-12 08:45:19.339 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\Shashank\OneDrive\Desktop\D_drive\Embedded-c\My-workspace\target
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-08-12 08:45:28.575
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-08-12 08:45:28.579
+!MESSAGE Log4j2 initialized with config file C:\Users\Shashank\OneDrive\Desktop\D_drive\Embedded-c\My-workspace\target\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-08-12 08:45:39.110
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-08-12 08:49:37.357
+!MESSAGE Indexed 'GPOI_driver' (2 sources, 53 headers) in 1.79 sec: 1,952 declarations; 2,861 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-08-13 09:48:41.789
+!MESSAGE Indexed 'STM32F4xx_drivers-master' (6 sources, 36 headers) in 0.558 sec: 1,929 declarations; 5,400 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

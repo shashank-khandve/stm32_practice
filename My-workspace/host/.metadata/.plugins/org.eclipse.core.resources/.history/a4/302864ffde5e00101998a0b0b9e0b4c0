@@ -1,0 +1,25 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 12, 2025
+ *      Author: Shashank
+ */
+
+
+#include <stdio.h>
+
+int main (){
+	char arr[6];
+	char i;
+	printf("Enter 6 characters of your choice: ");
+
+	for (i=0;i<6;i++){
+		scanf("%c",&arr[i]);
+	}
+	printf("ASCII CODES: ");
+	for (i=0;i<6;i++){
+		printf("  %c=%u",arr[i],arr[i]);
+	}
+	for(;;);
+
+}
